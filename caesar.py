@@ -13,5 +13,5 @@ def caesar_encrypt(text: str, shift: int = 3) -> str:
         else:
             encrypted_text += char  # Keep numbers and symbols unchanged
     return encrypted_text
-
+ 
 # FREEZE CODE END
